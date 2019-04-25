@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shamaz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Shamaz&quot;" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="none" minimumFontSize="25" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ui-OT-VPX">
+                                <rect key="frame" x="16" y="82" width="343" height="415"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.21357516530000001" green="0.19686560040000001" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1p-5s-P3L">
+                                <rect key="frame" x="71.5" y="573" width="232" height="60"/>
+                                <color key="backgroundColor" red="0.37514167746113991" green="0.17643806283201061" blue="0.12408760047196402" alpha="0.81588358274647887" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="232" id="VlF-Id-cfQ"/>
+                                    <constraint firstAttribute="height" constant="60" id="ZP4-Wu-Tbq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="tintColor" red="0.44268293049912982" green="0.41090618163925313" blue="0.70104707386994813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="THE PAST">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="past" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4T-Ey-Ntg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QzH-Sl-LSK">
+                                <rect key="frame" x="71.5" y="505" width="232" height="60"/>
+                                <color key="backgroundColor" red="0.28638912605151279" green="0.28065963744833139" blue="0.46939766839378239" alpha="0.90253631161971826" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="RGk-iG-sRs"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="232" id="fTb-vB-ZRX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="THE FUTURE">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.49707200909999999" green="0.353710107" blue="0.44352384210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="future" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ub-LI-Phy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gm0-jY-Kov">
+                                <rect key="frame" x="261" y="44" width="98" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oDQ-io-If8"/>
+                                </constraints>
+                                <state key="normal" title="NEXT PLAYER"/>
+                                <connections>
+                                    <action selector="nextplayer" destination="BYZ-38-t0r" eventType="touchUpInside" id="L42-ZA-Owx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHo-VH-6cz">
+                                <rect key="frame" x="16" y="44" width="109" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PTm-Jh-XTy"/>
+                                </constraints>
+                                <state key="normal" title="INSTRUCTIONS"/>
+                                <connections>
+                                    <action selector="inst" destination="BYZ-38-t0r" eventType="touchUpInside" id="hOC-ks-SeU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16345294627785958" green="0.14733961199991463" blue="0.39851845854922274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.75052787239999996" blue="0.46605424839999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nHo-VH-6cz" firstAttribute="top" secondItem="d3B-Fk-VbA" secondAttribute="top" id="0ml-dk-NPS"/>
+                            <constraint firstItem="y1p-5s-P3L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1RY-Rc-d01"/>
+                            <constraint firstItem="d3B-Fk-VbA" firstAttribute="trailing" secondItem="gm0-jY-Kov" secondAttribute="trailing" constant="16" id="JIS-Jf-8cM"/>
+                            <constraint firstItem="nHo-VH-6cz" firstAttribute="leading" secondItem="d3B-Fk-VbA" secondAttribute="leading" constant="16" id="Ruq-Qj-07y"/>
+                            <constraint firstItem="5ui-OT-VPX" firstAttribute="leading" secondItem="d3B-Fk-VbA" secondAttribute="leading" constant="16" id="TCn-IS-8Qi"/>
+                            <constraint firstItem="gm0-jY-Kov" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nHo-VH-6cz" secondAttribute="trailing" constant="8" symbolic="YES" id="Ud1-bM-7il"/>
+                            <constraint firstItem="gm0-jY-Kov" firstAttribute="top" secondItem="d3B-Fk-VbA" secondAttribute="top" id="Umk-PK-8QB"/>
+                            <constraint firstItem="5ui-OT-VPX" firstAttribute="top" secondItem="nHo-VH-6cz" secondAttribute="bottom" constant="8" id="fOe-PD-oAd"/>
+                            <constraint firstItem="QzH-Sl-LSK" firstAttribute="centerX" secondItem="y1p-5s-P3L" secondAttribute="centerX" id="i1P-E5-5Xa"/>
+                            <constraint firstItem="y1p-5s-P3L" firstAttribute="bottom" secondItem="d3B-Fk-VbA" secondAttribute="bottom" id="ivZ-oq-fdj"/>
+                            <constraint firstItem="QzH-Sl-LSK" firstAttribute="top" secondItem="5ui-OT-VPX" secondAttribute="bottom" constant="8" id="pPy-zx-Eg0"/>
+                            <constraint firstItem="d3B-Fk-VbA" firstAttribute="trailing" secondItem="5ui-OT-VPX" secondAttribute="trailing" constant="16" id="tAS-6z-fIt"/>
+                            <constraint firstItem="y1p-5s-P3L" firstAttribute="top" secondItem="QzH-Sl-LSK" secondAttribute="bottom" constant="8" id="v2A-Ec-8h1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d3B-Fk-VbA"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="Labels" destination="5ui-OT-VPX" id="woY-GF-abv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132.60869565217394" y="124.21875"/>
+        </scene>
+    </scenes>
+</document>
