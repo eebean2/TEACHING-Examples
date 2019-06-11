@@ -67,12 +67,10 @@ class matchingAlgo {
             
         }
         people.append(contentsOf: persons.prefix(i))
-        print("Adding \(i) people")
     }
     
     //Participants will introduce themselves one by one.
     func introduction() {
-        
         for id in people {
             print("Hello, my name is \(id.name), i'm \(id.characteristics[.age] as? Int ?? 0) years old, from  \(id.characteristics[.hometown] as? String ?? "unknown").")
         }
@@ -109,9 +107,12 @@ class matchingAlgo {
             // for loop to check dif dictionary for who has most number of differance and match
             // remove person two from _people array
             let i = dif.keys.first!
+            var p = [Person]()
+            
+            p.append(i)
             
             
-            _people.remove(at: _people.firstIndex(of:i)!)
+            _people.remove(at: _people.firstIndex(of:p.first!)!)
         }
     }
     
